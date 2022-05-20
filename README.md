@@ -1,8 +1,10 @@
 # Minecraft-Slot-Machine
 Welcome to the largest personal project of mine to date!
 Further information on the machine can be found via:
-   -This youtube link https://youtu.be/OxTlvFjo5VA
-   -A minecraft book available in the world save
+   
+-This youtube link https://youtu.be/OxTlvFjo5VA
+
+-A minecraft book available in the world save
 
 Feel free to contact me at HKoenig4644@gmail.com for any comments,
 questions, etc. on the machine; I am more than happy to explain
