@@ -1,0 +1,8 @@
+SELECT b1, b2, b3 FROM spins WHERE
+b1 = b2 AND b2 = b3 AND b1 = b3 AND b1 <> 7 OR
+b1 = b2 AND b3 = 0 AND b1 <> 7 OR
+b2 = b3 AND b1 = 0 AND b2 <> 7 OR
+b1 = b3 AND b2 = 0 AND b1 <> 7 OR
+b1 = 0 AND b2 = 0 AND b3 <> 7 OR
+b2 = 0 AND b3 = 0 AND b1 <> 7 OR
+b1 = 0 AND b3 = 0 AND b2 <> 7;

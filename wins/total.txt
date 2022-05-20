@@ -1,0 +1,40 @@
+SELECT * FROM spins WHERE
+b1 = 7 AND b2 = 7 AND b4 = 7 AND b5 = 7 AND b7 = 3 AND b8 = 3 OR
+b2 = 7 AND b3 = 7 AND b5 = 7 AND b6 = 7 AND b8 = 2 AND b9 = 2 OR
+b4 = 7 AND b5 = 7 AND b7 = 7 AND b8 = 7 AND b1 = 1 AND b2 = 1 OR
+b5 = 7 AND b6 = 7 AND b8 = 7 AND b9 = 7 AND b2 = 4 AND b3 = 1 OR
+b4 = b5 AND b5 = b6 AND b4 = b6 AND b4 <> 7 OR
+b4 = b5 AND b6 = 0 AND b4 <> 7 OR
+b5 = b6 AND b4 = 0 AND b5 <> 7 OR
+b4 = b6 AND b5 = 0 AND b4 <> 7 OR
+b4 = 0 AND b5 = 0 AND b6 <> 7 OR
+b5 = 0 AND b6 = 0 AND b4 <> 7 OR
+b4 = 0 AND b6 = 0 AND b5 <> 7 OR
+b1 = b2 AND b2 = b3 AND b1 = b3 AND b1 <> 7 OR
+b1 = b2 AND b3 = 0 AND b1 <> 7 OR
+b2 = b3 AND b1 = 0 AND b2 <> 7 OR
+b1 = b3 AND b2 = 0 AND b1 <> 7 OR
+b1 = 0 AND b2 = 0 AND b3 <> 7 OR
+b2 = 0 AND b3 = 0 AND b1 <> 7 OR
+b1 = 0 AND b3 = 0 AND b2 <> 7 OR
+b7 = b8 AND b8 = b9 AND b7 = b9 AND b7 <> 7 OR
+b7 = b8 AND b9 = 0 AND b7 <> 7 OR
+b8 = b9 AND b7 = 0 AND b8 <> 7 OR
+b7 = b9 AND b8 = 0 AND b7 <> 7 OR
+b7 = 0 AND b8 = 0 AND b9 <> 7 OR
+b8 = 0 AND b9 = 0 AND b7 <> 7 OR
+b7 = 0 AND b9 = 0 AND b8 <> 7 OR
+b1 = b5 AND b5 = b9 AND b1 = b9 AND b1 <> 7 OR
+b1 = b5 AND b9 = 0 AND b1 <> 7 OR
+b5 = b9 AND b1 = 0 AND b5 <> 7 OR
+b1 = b9 AND b5 = 0 AND b1 <> 7 OR
+b1 = 0 AND b5 = 0 AND b9 <> 7 OR
+b5 = 0 AND b9 = 0 AND b1 <> 7 OR
+b1 = 0 AND b9 = 0 AND b5 <> 7 OR
+b7 = b5 AND b5 = b3 AND b7 = b3 AND b7 <> 7 OR
+b7 = b5 AND b3 = 0 AND b7 <> 7 OR
+b5 = b3 AND b7 = 0 AND b5 <> 7 OR
+b7 = b3 AND b5 = 0 AND b7 <> 7 OR
+b7 = 0 AND b5 = 0 AND b3 <> 7 OR
+b5 = 0 AND b3 = 0 AND b7 <> 7 OR
+b7 = 0 AND b3 = 0 AND b5 <> 7;
